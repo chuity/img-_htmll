@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:DroidSans;
+    src: url(../fonts/DroidSans-Bold.ttf);
+    
+}
+@font-face{
+    font-family:quicksun;
+    src: url(../fonts/Quicksand-Italic.otf);
+    
+}
+@font-face{
+    font-family:quicksunBold;
+    src: url(../fonts/Quicksand-Bold.ttf);
+    
+}
+@font-face{
+    font-family:ARDECODE;
+    src: url(../fonts/ARDECODE.ttf);
+}
+
+@font-face{
+    font-family:Quicksand-Regular;
+    src: url(../fonts/Quicksand-Regular.ttf);
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.caption{
+    font-size: 30px;
+    font-family:ARDECODE;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+/*============This is Header Start*/
+header{
+    width: 100%;
+    background-color: #2A2E33;
+    height: 100px;
+}
+/*This is left Header Start*/
+.left-header{
+    float: left;
+    width: 37%;
+}
+.left-header1{
+    width: 50%;
+    float: left;
+}
+.left-header1 h1{
+    color: #FFFFFF;
+padding: 35px 0;
+text-transform: uppercase;
+font-size: 30px;
+    font-family:DroidSans;
+}
+
+.left-header1 h1 span{
+    color: #ffd700;
+}
+.left-header2{
+    width: 45%;
+    float: right;
+    font-size: 14px;
+    padding-right: 5%;
+}
+.left-header2 p{
+        padding: 44px 0;
+    text-transform: capitalize;
+    color: #C6C7C9;
+     font-family:quicksun;
+}
+}
+/*This is left Header end*/
+/*This is right Header Start*/
+.right-header{
+    float: right;
+    width: 60%;
+}
+.right-header ul{
+    
+}
+.right-header ul li{
+    list-style: none;
+float: left;
+padding: 37px 17px;
+    transition: 0.5s;
+}
+.right-header ul li:hover{
+    background-color: #1E2329;
+    border-top: 5px solid #FFD700;
+}
+
+.right-header ul li a{
+    
+    text-decoration: none;
+font-size: 13px;
+color: #FFFFFF;
+text-transform: uppercase;
+font-weight: bold;
+     font-family:DroidSans;
+    letter-spacing: 1px;
+}
+
+/*This is right Header end*/
+/*============This is Header end*/
+/*============This is Hello Start*/
+.hello{
+height: 460px;
+width: 100%;
+background-color: #00CCFF;
+color: #FFFFFF;
+text-align: center;
+    position: relative;
+    
+}
+.hello h3{
+    font-size: 30px;
+padding-top: 80px;
+text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+.hello h1{
+font-size: 60px;
+padding-top: 20px;
+text-transform: uppercase;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+}
+.hello h2{
+font-size: 30px;
+padding-top: 35px;
+text-transform: uppercase;
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+}
+.hr1{
+    border: 1px dashed #FFFFFF;
+width: 40%;
+
+margin-left: 30%;
+margin-top: 25px;
+}
+.hr2{
+border: 1px dashed #FFFFFF;
+width: 30%;
+margin-left: 35%;
+margin-top: 30px;
+}
+
+/* this is drop*/
+
+.drope{
+    height: 100px;
+    width: 1020px;
+    background-color: #2a2e33;
+        color: #8d7d1b;
+text-transform: capitalize;
+    position: absolute;
+    left: 145px;
+top: 415px;
+    
+}
+.drope p{
+    padding-top: 15px;
+    text-align: left;
+}
+.drop div{
+    float: left;
+    padding: 4px;
+}
+.drop input{
+    height: 35px;
+    width: 260px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    height: 36px;
+margin-top: 34px;
+}
+.drop1{
+    position: relative;
+}
+.drop2{
+    position: relative;
+}
+.drop3{
+    position: relative;
+}
+.icon1{
+    position: absolute;
+    left: 10px;
+top: 50px;
+    cursor: pointer;
+}
+.icon2{
+    position: absolute;
+    left: 10px;
+top: 50px;
+    cursor: pointer;
+}
+.icon3{
+position: absolute;
+left: 10px;
+top: 54px;
+cursor: pointer;
+}
+/*============This is Hello end*/
+/*============This is slider Start*/
+.slider{
+    height: 500px;
+    background-image: url("../images/bg.jpg");
+    text-align: center;
+}
+.h1{
+    padding-top: 100px;
+}
+.slider p{
+    padding-top: 10px;
+font-size: 14px;
+    font-family:quicksun;
+}
+.circle{
+   
+}
+.circle img{
+    float: left;
+     text-align: center;
+}
+.img1{
+    padding-top: 115px;
+    padding-left: 110px;
+}
+.img2{
+    padding-left: 100px;
+    padding-right: 25px;
+    padding-top: 45px;
+}
+.img3{
+    padding-right: 25px;
+    padding-top: 45px;
+}
+.img4{
+    padding-top: 45px;
+    
+}
+.img5{
+    padding-left: 100px;
+    padding-top: 115px;
+}
+/*============This is slider end*/
+/*============This is content Start*/
+.content{
+    background-image: url(../images/bg1.jpg);
+    height: 770px;
+}
+.room{
+    font-family:Quicksand-Regular;
+    text-align: center;
+    width: 32%;
+    float: left;
+    padding: 8px;
+}
+.room img{
+    
+}
+.room h1{}
+.room p{
+    
+    font-size: 13px;
+}
+/*============This is content end*/
+/*============This is city Start*/
+.city{
+    background-color: #e7cb2c;
+    height: 185px;
+    width: 100%;
+    position: relative;
+}
+.city h1{
+    font-family: Quicksand-Regular;
+padding-top: 50px;
+font-size: 45px;
+}
+.city p{
+    font-family:quicksun;
+    padding-top: 20px;
+}
+.city1{
+    float: left;
+}
+.imag{
+    
+    
+    position: absolute;
+right: 60px;
+top: -99px;
+}
+
+/*============This is city end*/
+/*============This is About Start*/
+
+.footer{
+   background-color: #333333;
+    height: 325px;
+    width: 100%;
+    border-bottom: 35px solid #1f1f1f;
+}
+.about div{
+    float: left;
+    padding: 20px;
+}
+.about h1{
+    font-family: DroidSans;
+padding-top: 25px;
+font-weight: normal;
+text-transform: uppercase;
+font-size: 20px;
+color: #ffffff;
+}
+.about p{
+    font-family:Quicksand-Regular;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #c9c9c9;
+    text-align: justify;
+}
+.about1{
+    width: 18%;
+}
+.about2{
+    width: 14%;
+}
+.about3{
+    width: 36%;
+}
+button{
+    height: 28px;
+    width: 105px;
+    background-color: #e7cb2c;
+    color: #1e1e1e;
+    cursor: pointer;
+    border: 2px solid #e7cb2c;
+    text-transform: uppercase;
+    font-family:DroidSans;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.about4{
+    width: 18%;
+}
+.about4 input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #1f1f1f;
+    background-color: #333333;
+    border-radius: 12px;
+}
+/*============This is   About end*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:DroidSans;
+    src: url(../fonts/DroidSans-Bold.ttf);
+    
+}
+@font-face{
+    font-family:quicksun;
+    src: url(../fonts/Quicksand-Italic.otf);
+    
+}
+@font-face{
+    font-family:quicksunBold;
+    src: url(../fonts/Quicksand-Bold.ttf);
+    
+}
+@font-face{
+    font-family:ARDECODE;
+    src: url(../fonts/ARDECODE.ttf);
+}
+
+@font-face{
+    font-family:Quicksand-Regular;
+    src: url(../fonts/Quicksand-Regular.ttf);
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.caption{
+    font-size: 30px;
+    font-family:ARDECODE;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+/*============This is Header Start*/
+header{
+    width: 100%;
+    background-color: #2A2E33;
+    height: 100px;
+}
+/*This is left Header Start*/
+.left-header{
+    float: left;
+    width: 37%;
+}
+.left-header1{
+    width: 50%;
+    float: left;
+}
+.left-header1 h1{
+    color: #FFFFFF;
+padding: 35px -6px;
+text-transform: uppercase;
+font-size: 30px;
+    font-family:DroidSans;
+}
+
+.left-header1 h1 span{
+    color: #ffd700;
+}
+.left-header2{
+    width: 45%;
+    float: right;
+    font-size: 14px;
+    padding-right: 5%;
+}
+.left-header2 p{
+          padding: 45px 6px;
+    text-transform: capitalize;
+    color: #C6C7C9;
+    font-family: quicksun;
+}
+}
+/*This is left Header end*/
+/*This is right Header Start*/
+.right-header{
+    float: right;
+    width: 60%;
+}
+.right-header ul{
+    
+}
+.right-header ul li{
+    list-style: none;
+float: left;
+padding: 37px 17px;
+    transition: 0.5s;
+}
+.right-header ul li:hover{
+    background-color: #1E2329;
+    border-top: 5px solid #FFD700;
+}
+
+.right-header ul li a{
+    
+    text-decoration: none;
+font-size: 13px;
+color: #FFFFFF;
+text-transform: uppercase;
+font-weight: bold;
+     font-family:DroidSans;
+    letter-spacing: 1px;
+}
+
+/*This is right Header end*/
+/*============This is Header end*/
+/*============This is Hello Start*/
+.hello{
+height: 460px;
+width: 100%;
+background-color: #00CCFF;
+color: #FFFFFF;
+text-align: center;
+    position: relative;
+    
+}
+.hello h3{
+    font-size: 30px;
+padding-top: 80px;
+text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+.hello h1{
+font-size: 60px;
+padding-top: 20px;
+text-transform: uppercase;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+}
+.hello h2{
+font-size: 30px;
+padding-top: 35px;
+text-transform: uppercase;
+font-family: 'Quicksand', sans-serif;
+font-weight: normal;
+}
+.hr1{
+    border: 1px dashed #FFFFFF;
+width: 40%;
+
+margin-left: 30%;
+margin-top: 25px;
+}
+.hr2{
+border: 1px dashed #FFFFFF;
+width: 30%;
+margin-left: 35%;
+margin-top: 30px;
+}
+
+/* this is drop*/
+
+.drope{
+    height: 100px;
+    width: 1020px;
+    background-color: #2a2e33;
+        color: #8d7d1b;
+text-transform: capitalize;
+    position: absolute;
+    left: 145px;
+top: 415px;
+    
+}
+.drope p{
+    padding-top: 15px;
+    text-align: left;
+}
+.drop div{
+    float: left;
+    padding: 4px;
+}
+.drop input{
+    height: 35px;
+    width: 260px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    height: 36px;
+margin-top: 34px;
+}
+.drop1{
+    position: relative;
+}
+.drop2{
+    position: relative;
+}
+.drop3{
+    position: relative;
+}
+.icon1{
+    position: absolute;
+    left: 10px;
+top: 50px;
+    cursor: pointer;
+}
+.icon2{
+    position: absolute;
+    left: 10px;
+top: 50px;
+    cursor: pointer;
+}
+.icon3{
+position: absolute;
+left: 10px;
+top: 54px;
+cursor: pointer;
+}
+/*============This is Hello end*/
+/*============This is slider Start*/
+.slider{
+    height: 500px;
+    background-image: url("../images/bg.jpg");
+    text-align: center;
+}
+.h1{
+    padding-top: 100px;
+}
+.slider p{
+    padding-top: 10px;
+font-size: 14px;
+    font-family:quicksun;
+}
+.circle{
+   
+}
+.circle img{
+    float: left;
+     text-align: center;
+}
+.img1{
+    padding-top: 115px;
+    padding-left: 110px;
+}
+.img2{
+    padding-left: 100px;
+    padding-right: 25px;
+    padding-top: 45px;
+}
+.img3{
+    padding-right: 25px;
+    padding-top: 45px;
+}
+.img4{
+    padding-top: 45px;
+    
+}
+.img5{
+    padding-left: 100px;
+    padding-top: 115px;
+}
+/*============This is slider end*/
+/*============This is content Start*/
+.content{
+    background-image: url(../images/bg1.jpg);
+    height: 770px;
+}
+.room{
+    font-family:Quicksand-Regular;
+    text-align: center;
+    width: 32%;
+    float: left;
+    padding: 8px;
+}
+.room img{
+    
+}
+.room h1{}
+.room p{
+    
+    font-size: 13px;
+}
+/*============This is content end*/
+/*============This is city Start*/
+.city{
+    background-color: #e7cb2c;
+    height: 185px;
+    width: 100%;
+    position: relative;
+}
+.city h1{
+    font-family: Quicksand-Regular;
+padding-top: 50px;
+font-size: 45px;
+}
+.city p{
+    font-family:quicksun;
+    padding-top: 20px;
+}
+.city1{
+    float: left;
+}
+.imag{
+    
+    
+    position: absolute;
+right: 60px;
+top: -99px;
+}
+
+/*============This is city end*/
+/*============This is About Start*/
+
+.footer{
+   background-color: #333333;
+    height: 325px;
+    width: 100%;
+    border-bottom: 35px solid #1f1f1f;
+}
+.about div{
+    float: left;
+    padding: 20px;
+}
+.about h1{
+    font-family: DroidSans;
+padding-top: 25px;
+font-weight: normal;
+text-transform: uppercase;
+font-size: 20px;
+color: #ffffff;
+}
+.about p{
+    font-family:Quicksand-Regular;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #c9c9c9;
+    text-align: justify;
+}
+.about1{
+    width: 18%;
+}
+.about2{
+    width: 14%;
+}
+.about3{
+    width: 36%;
+}
+button{
+    height: 28px;
+    width: 105px;
+    background-color: #e7cb2c;
+    color: #1e1e1e;
+    cursor: pointer;
+    border: 2px solid #e7cb2c;
+    text-transform: uppercase;
+    font-family:DroidSans;
+    margin-top: 15px;
+    border-radius: 12px;
+}
+.about4{
+    width: 18%;
+}
+.about4 input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #1f1f1f;
+    background-color: #333333;
+    border-radius: 12px;
+}
+/*============This is   About end*/
